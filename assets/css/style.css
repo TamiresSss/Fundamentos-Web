@@ -1,0 +1,57 @@
+/* 
+Estilos da pagina index.html
+*/
+.center {
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: right; /* horizontal */
+    align-items: center; /* vertical */
+
+    border: 5px solid purple;
+    padding: 20px;
+    margin: 20px;
+}
+#menu li {
+    display: inline;
+    padding: 15px;
+   
+}
+
+#menu li a{
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+
+.p30{
+    padding: 30px;
+}
+/* 
+Config da imagem index.html
+
+*/
+img{
+    width: 500px;
+}
+
+.br-50 {
+   border-radius: 50%; 
+}
+
+.tm-social{
+    width: 50px;
+}
+/* 
+cor da borda container index.html
+
+*/
+.p-color{
+    color: #4924ad;
+}
+
